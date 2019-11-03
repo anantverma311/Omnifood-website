@@ -275,7 +275,7 @@ header {
   display: block;
 }
 
-.main-nav {
+.sticky .main-nav {
   float: right;
   list-style-type: none;
   margin-top: 18px;
