@@ -275,11 +275,25 @@ header {
   display: block;
 }
 
-.sticky .main-nav {
+.main-nav {
   float: right;
   list-style-type: none;
   margin-top: 18px;
 }
+
+/* ----mobile navigation----*/
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+.mobile-nav-icon ion-icon {
+  font-size: 200%;
+  color: #fff;
+}
+
 /* ------------------------------ */
 /* MEALS */
 /* ------------------------------ */

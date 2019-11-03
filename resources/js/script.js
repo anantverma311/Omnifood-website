@@ -107,4 +107,18 @@ $(document).ready(function() {
       offset: "50%"
     }
   );
+  // nav -----burger menu------
+  $(".js--nav-icon").click(function() {
+    var nav = $(".js--main-nav");
+    var icon = $(".js--nav-icon");
+    nav.slideToggle(200);
+
+    if (icon.hasClass(".ion-navicon-round")) {
+      icon.addClass(".ion-navicon-close");
+      icon.removeClass(".ion-navicon-round");
+    } else {
+      icon.addClass(".ion-navicon-round");
+      icon.removeClass(".ion-navicon-close");
+    }
+  });
 });
